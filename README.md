@@ -1,13 +1,14 @@
 # nsq_to_couchbase
 [![Build Status](https://travis-ci.org/nvcnvn/nsq_to_couchbase.svg?branch=master)](https://travis-ci.org/nvcnvn/nsq_to_couchbase)
+
 Similar to nsq_tail (infact alot of copy/paste from that). This tool is a consumer that catch and save message in Couchbase
 
 
-### Build step
+### Build
 
 Requirement:
- * Install Go (https://golang.org/doc/install#install)
- * Install `gb` tool (https://getgb.io/)
+ * Go (https://golang.org/doc/install#install)
+ * `gb` tool (https://getgb.io/)
 
 Copy to terminal:
 ```
@@ -18,6 +19,8 @@ gb build
 Then you will find an excutable in `bin` folder name `cmd`.
 
 ### Usage
+
+Tested on Couchbase 4.5 only.
 
 Arguments:
  * connStr: Couchbase connection string - required (example: "couchbase://192.168.46.10")
