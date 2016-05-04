@@ -8,3 +8,6 @@ sudo: false
 install:
   - go get github.com/constabulary/gb/...
   - gb build
+
+script:
+  - gb test
