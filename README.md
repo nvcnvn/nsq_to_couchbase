@@ -1,5 +1,5 @@
 # nsq_to_couchbase
-
+[![Build Status](https://travis-ci.org/nvcnvn/nsq_to_couchbase.svg?branch=master)](https://travis-ci.org/nvcnvn/nsq_to_couchbase)
 Similar to nsq_tail (infact alot of copy/paste from that). This tool is a consumer that catch and save message in Couchbase
 
 
