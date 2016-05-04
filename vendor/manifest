@@ -1,0 +1,29 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/couchbase/gocb",
+			"repository": "https://github.com/couchbase/gocb",
+			"revision": "2997f2a0fbb0403edcc9a5f735ebdb1f6a90d38b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mreiferson/go-snappystream",
+			"repository": "https://github.com/mreiferson/go-snappystream",
+			"revision": "028eae7ab5c4c9e2d1cb4c4ca1e53259bbe7e504",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/nsqio/go-nsq",
+			"repository": "https://github.com/nsqio/go-nsq",
+			"revision": "642a3f9935f12cb3b747294318d730f56f4c34b4",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/satori/go.uuid",
+			"repository": "https://github.com/satori/go.uuid",
+			"revision": "f9ab0dce87d815821e221626b772e3475a0d2749",
+			"branch": "master"
+		}
+	]
+}
